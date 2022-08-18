@@ -32,13 +32,23 @@ header {
     padding-left: 10px;
 }
 
-header nav {
+#nav-bar {
     position: inherit;
     top: 3.5vh;
     right: 0;
-    width: auto;
+    width: 360px;
     float: right;
     background: black;
+}
+
+#nav-menu {
+    /* float: right; */
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-item {
+    display: inline;
 }
 
 header a {
