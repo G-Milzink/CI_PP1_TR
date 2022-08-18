@@ -1,3 +1,6 @@
+/* IMPORT FONT (CODE TAKEN FROM GOOGLE FONTS) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     border: 0;
@@ -6,4 +9,69 @@
 
 body {
     background-color: #402C13;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: italic;
+}
+
+/* HEADER STYLING */
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: #DFA201;
+    text-transform: capitalize;
+}
+
+#logo {
+    position: inherit;
+    display: inline;
+    top: 2.5vh;
+    left: 0;
+    padding-left: 10px;
+}
+
+header nav {
+    position: inherit;
+    top: 3.5vh;
+    right: 0;
+    width: auto;
+    float: right;
+    background: black;
+}
+
+header a {
+    position: relative;
+    color: #DFA201;
+    text-decoration: none;
+    float: right;
+    padding-right: 10px;
+}
+
+/* FOOTER STYLING */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: #DFA201;
+    text-align: center;
+}
+
+footer a {
+    position: relative;
+    color: #DFA201;
+    text-decoration: none;
+    padding: 0 10px 0px 10px;
+}
+
+#media-links {
+    position: relative;
+    float: right;
+    bottom: 5vh;
+    padding-right: 10px;
+
+    font-size: 200%;
 }
