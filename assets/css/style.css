@@ -77,10 +77,12 @@ footer a {
 }
 
 /* HOMEPAGE STYLING */
-img {
+#home-bg {
+    position: relative;
     top: 10vh;
-    max-width: 100vw;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../images/ryan-plomp-oi2OWSQ5Q24-unsplash_1920-900.webp);
+    background-position: center center;
 }
+
