@@ -75,3 +75,12 @@ footer a {
 
     font-size: 200%;
 }
+
+/* HOMEPAGE STYLING */
+img {
+    top: 10vh;
+    max-width: 100vw;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
