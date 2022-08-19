@@ -316,12 +316,101 @@ footer a {
 
 /* CONTACT STYLING */
 
-#maps {
+#contact {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#contact h4 {
+    font-size: 150%;
+}
+#contact h5 {
+    font-size: 100%;
+}
+
+#iframe-wrapper {
     position: relative;
     width: 600px;
     height: 400px;
     top: 100px;
+    left: -4px;
     border: 4px solid black;
     border-radius: 0 30px 30px 0;
     overflow: hidden;
+
 }
+
+#adress-wrapper {
+    position: relative;
+    top: 120px;
+    left: -4px;
+    height: 140px;
+    width: 600px;
+    border: 4px solid black;
+    border-radius: 0 30px 30px 0;
+    background-color: #927E4D;
+
+}
+
+#adress {
+    position: relative;
+    float: left;
+    left: 5vw;
+    top: 20px;
+}
+
+#contact-info {
+    position: relative;
+    float: left;
+    left: 10vw;
+    top: 20px;
+}
+
+#form-wrapper {
+    position: relative;
+    top: -440px;
+    float: right;
+    right: -4px;
+    width: 600px;
+    height: 560px;
+    border: 4px solid black;
+    border-radius: 30px 0 0 30px;
+    background-color: #927E4D;
+    color: black;
+}
+
+#form-header {
+    height: 50px;
+    width: auto;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form label{
+    position: relative;
+    max-width: 300px;
+    left: 30px;
+    font-size: 200%;
+}
+
+form input {
+    position: absolute;
+    width: 310px;
+    left: 240px;
+    font-size: 155%;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 7.5px;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+}
+
+form p {
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-size: 150%;
+    padding-top: 50px;
+}
+
