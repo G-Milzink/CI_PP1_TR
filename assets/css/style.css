@@ -314,6 +314,20 @@ footer a {
     border: 4px solid black;
 }
 
+/* GALLERY STYLING */
+#gallery {
+    position: absolute;
+    top: 10vh;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+#gallery img{
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+
 /* CONTACT STYLING */
 
 #contact {
