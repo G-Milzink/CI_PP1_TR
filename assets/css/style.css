@@ -5,6 +5,8 @@
     margin: 0;
     border: 0;
     padding: 0;
+    box-sizing: border-box;
+    z-index: 0;
 }
 
 body {
@@ -22,6 +24,7 @@ header {
     background-color: black;
     color: #DFA201;
     text-transform: capitalize;
+    z-index: 10;
 }
 
 #logo {
@@ -68,6 +71,7 @@ footer {
     background-color: black;
     color: #DFA201;
     text-align: center;
+    z-index: 10;
 }
 
 footer a {
@@ -125,5 +129,172 @@ footer a {
     max-height: 70vh;
     width: auto;
     border-radius: 0 30px 30px 0;
+    border: 4px solid black;
+}
+
+/* MENU STYLING */
+#menu {
+    width: 100%;
+    height: 500vh;
+    overflow: hidden;
+}
+
+#menu h3 {
+    font-size: 300%;
+    padding-top: 10px;
+}
+#menu p {
+    font-size: 150%;
+}
+/* MENU SIDEBAR STYLING */
+#sidebar {
+    position: fixed;
+    top: 15vh;
+    float: left;
+    left: -4px;
+    height: 70vh;
+    width: 130px;
+    background-color: #927E4D;
+    color: #402C13;
+    border-radius: 0 30px 30px 0;
+    border: 4px solid black;
+    text-align: center;
+}
+
+/* STARTERS SECTION STYLING */
+#starters-wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+#starters-txt {
+    height: 100vh;
+    position: absolute;
+    top: 15vh;
+    margin-left: 20%;
+    text-align: center;
+    color: #cac2ab;
+}
+
+#starters-img {
+    position: absolute;
+    top: 15vh;
+    float: right;
+    right: -4px;
+    max-height: 70vh;
+    width: auto;
+    border-radius: 30px 0 0 30px;
+    border: 4px solid black;
+}
+
+/* MAINS SECTION STYLING */
+#mains-wrapper {
+    top: 100vh;
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+
+#mains-txt {
+    height: 100vh;
+    position: absolute;
+    top: 115vh;
+    margin-left: 20%;
+    text-align: center;
+    color: #cac2ab;
+}
+
+#mains-img {
+    position: absolute;
+    top: 115vh;
+    float: right;
+    right: -4px;
+    max-height: 70vh;
+    width: auto;
+    border-radius: 30px 0 0 30px;
+    border: 4px solid black;
+}
+
+/* MAINS SECTION STYLING */
+#deserts-wrapper {
+    top: 200vh;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+
+#deserts-txt {
+    height: 100vh;
+    position: absolute;
+    top: 215vh;
+    margin-left: 20%;
+    text-align: center;
+    color: #cac2ab;
+}
+
+#deserts-img {
+    position: absolute;
+    top: 215vh;
+    float: right;
+    right: -4px;
+    max-height: 70vh;
+    width: auto;
+    border-radius: 30px 0 0 30px;
+    border: 4px solid black;
+}
+
+/* DRINKS SECTION STYLING */
+#drinks-wrapper {
+    top: 300vh;
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+
+#drinks-txt {
+    height: 100vh;
+    position: absolute;
+    top: 315vh;
+    margin-left: 20%;
+    text-align: center;
+    color: #cac2ab;
+}
+
+#drinks-img {
+    position: absolute;
+    top: 315vh;
+    float: right;
+    right: -4px;
+    max-height: 70vh;
+    width: auto;
+    border-radius: 30px 0 0 30px;
+    border: 4px solid black;
+}
+
+/* DRINKS SECTION STYLING */
+#bites-wrapper {
+    top: 400vh;
+    height: 100vh;
+    width: 100%;
+    background-color: purple;
+}
+
+#bites-txt {
+    height: 100vh;
+    position: absolute;
+    top: 415vh;
+    margin-left: 20%;
+    text-align: center;
+    color: #cac2ab;
+}
+
+#bites-img {
+    position: absolute;
+    top: 415vh;
+    float: right;
+    right: -4px;
+    max-height: 70vh;
+    width: auto;
+    border-radius: 30px 0 0 30px;
     border: 4px solid black;
 }
