@@ -105,12 +105,23 @@ footer a {
     height: 80vh;
     width: 50%;
     text-align: center;
+    color: #cac2ab;
+}
+
+#about h2 {
+    font-size: 400%;
+    padding-bottom: 20px;
+}
+
+#about p {
+    font-size: 200%;
 }
 
 #about img {
     position: absolute;
     top: 15vh;
     float: left;
+    left: -4px;
     max-height: 70vh;
     width: auto;
     border-radius: 0 30px 30px 0;
