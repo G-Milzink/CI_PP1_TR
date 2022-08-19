@@ -146,7 +146,7 @@ footer a {
 #menu p {
     font-size: 150%;
 }
-/* MENU SIDEBAR STYLING */
+    /* MENU SIDEBAR STYLING */
 #sidebar {
     position: fixed;
     top: 15vh;
@@ -161,7 +161,22 @@ footer a {
     text-align: center;
 }
 
-/* STARTERS SECTION STYLING */
+#sidebar ul {
+    position: relative;
+}
+
+#sidebar li {
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
+}
+
+#sidebar a {
+    color: #402C13;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+    /* STARTERS SECTION STYLING */
 #starters-wrapper {
     height: 100vh;
     width: 100%;
@@ -187,7 +202,7 @@ footer a {
     border: 4px solid black;
 }
 
-/* MAINS SECTION STYLING */
+    /* MAINS SECTION STYLING */
 #mains-wrapper {
     top: 100vh;
     height: 100vh;
@@ -215,7 +230,7 @@ footer a {
     border: 4px solid black;
 }
 
-/* MAINS SECTION STYLING */
+    /* DESERTS SECTION STYLING */
 #deserts-wrapper {
     top: 200vh;
     height: 100vh;
@@ -243,7 +258,7 @@ footer a {
     border: 4px solid black;
 }
 
-/* DRINKS SECTION STYLING */
+    /* DRINKS SECTION STYLING */
 #drinks-wrapper {
     top: 300vh;
     height: 100vh;
@@ -271,7 +286,7 @@ footer a {
     border: 4px solid black;
 }
 
-/* DRINKS SECTION STYLING */
+    /* BITES SECTION STYLING */
 #bites-wrapper {
     top: 400vh;
     height: 100vh;
@@ -297,4 +312,16 @@ footer a {
     width: auto;
     border-radius: 30px 0 0 30px;
     border: 4px solid black;
+}
+
+/* CONTACT STYLING */
+
+#maps {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    top: 100px;
+    border: 4px solid black;
+    border-radius: 0 30px 30px 0;
+    overflow: hidden;
 }
