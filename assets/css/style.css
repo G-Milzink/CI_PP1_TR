@@ -114,15 +114,15 @@ footer {
 /* ABOUT STYLING */
 #about {
     text-align: center;
-    margin-bottom: 75px;
+    clear: both;
 }
 
 #about img {
-    position: absolute;
+    position: fixed;
     top: 15vh;
     float: left;
     left: -4px;
-    height: 450px;
+    max-height: 70vh;
     width: auto;
     border-radius: 0 30px 30px 0;
     border: 4px solid black;
@@ -132,20 +132,24 @@ footer {
     position: relative;
     top: 75px;
     float: right;
-    margin: 27.5px;
-    max-width: calc(100vw - 500px);
+    max-width: calc(100vw - 400px);
+    padding: 25px;
     color: #cac2ab;
+    height: auto;
+    overflow-y: auto;
 }
 
 #about h2 {
-    font-size: 300%;
+    font-size: 250%;
+    margin-top: 20px;
     padding-bottom: 20px;
 }
 
 #about p {
     position: relative;
-    font-size: 200%;
+    font-size: 175%;
     width: 100%;
+    margin-bottom: 75px;
 }
 
 /* MENU STYLING */
@@ -215,7 +219,7 @@ footer {
     max-height: 70vh;
     width: auto;
     border-radius: 30px 0 0 30px;
-    border: 4px solid black;
+    border: 4px solid black;    
 }
 
     /* MAINS SECTION STYLING */
