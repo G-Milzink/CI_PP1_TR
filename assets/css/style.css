@@ -34,6 +34,7 @@ header {
     float: left;
     top: 15px;
     left: 15px;
+    font-size: 100%;
 }
 
 #nav-bar {
@@ -61,6 +62,20 @@ header a {
     text-decoration: none;
     float: right;
     padding-right: 10px;
+}
+
+#nav-dropdown {
+    background-color: rgba(0, 0, 0, 0);
+    color: #DFA201;
+    border: 2px solid #DFA201;
+    border-radius: 5px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+    display: none;
 }
 
 /* FOOTER STYLING */
@@ -91,11 +106,12 @@ footer {
 #footer-contact-link {
     position: relative;
     float: right;
-    top: 15px;
+    top: 5px;
     right: 15px;
     text-decoration: none;
     padding: 0 10px 0px 10px;
     color: #DFA201;
+    font-size: 120%;
 }
 
 
@@ -445,3 +461,27 @@ form p {
     padding-top: 50px;
 }
 
+/* RESPONSIVE DESIGN */
+
+    /* NAV-BAR */
+@media screen  {
+    @media (max-width: 630px) {
+        #nav-menu               { display: none; }
+        #nav-dropdown           { display: inline-block;}
+        #nav-bar                { width: auto;}  
+      }
+}
+@media screen  {
+    @media (max-width: 400px) {
+        #logo                   {top: 5px; font-size: 80%; max-width: 50%; text-align: center;}
+    }
+}
+
+
+    /* FOOTER */
+@media screen  {
+     @media (max-width: 400px) {
+        #footer-contact-link    {font-size: 80%; top: 10px;}
+        #media-links i          {font-size: 126%; padding-left: 0;}
+    }
+}

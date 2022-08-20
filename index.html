@@ -28,11 +28,18 @@
                     <a href="index.html"><h3>home</h3></a>
                 </li>
             </ul>
+            <select onchange="window.open(this.value,'_self');" id="nav-dropdown">
+                <option value="#">Home</option>
+                <option value="about.html">About</option>
+                <option value="menu.html">Menu</option>
+                <option value="gallery.html">Gallery</option>
+                <option value="contact.html">Contact</option>
+            </select>
         </nav>
     </header>
     <section id="home-bg"></section>
     <footer>
-        <a href="contact.html" id="footer-contact-link"><h1>reserve a spot</h1></a>
+        <a href="contact.html" id="footer-contact-link"><h1>Reservations</h1></a>
         <div id="media-links">
             <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></i></a>
             <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
