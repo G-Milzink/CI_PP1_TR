@@ -10,6 +10,7 @@
 }
 
 body {
+    height: fit-content;
     background-color: #402C13;
     font-family: 'Playfair Display', sans-serif;
     font-style: italic;
@@ -198,12 +199,12 @@ footer {
 
     /* STARTERS SECTION STYLING */
 #starters-wrapper {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
 #starters-txt {
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     top: 15vh;
     margin-left: 20%;
@@ -224,14 +225,13 @@ footer {
 
     /* MAINS SECTION STYLING */
 #mains-wrapper {
-    top: 100vh;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: blue;
 }
 
 #mains-txt {
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     top: 115vh;
     margin-left: 20%;
@@ -252,14 +252,13 @@ footer {
 
     /* DESERTS SECTION STYLING */
 #deserts-wrapper {
-    top: 200vh;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: red;
 }
 
 #deserts-txt {
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     top: 215vh;
     margin-left: 20%;
@@ -280,14 +279,13 @@ footer {
 
     /* DRINKS SECTION STYLING */
 #drinks-wrapper {
-    top: 300vh;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: green;
 }
 
 #drinks-txt {
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     top: 315vh;
     margin-left: 20%;
@@ -308,14 +306,13 @@ footer {
 
     /* BITES SECTION STYLING */
 #bites-wrapper {
-    top: 400vh;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: purple;
 }
 
 #bites-txt {
-    height: 100vh;
+    min-height: calc(100vh - 150px);
     position: absolute;
     top: 415vh;
     margin-left: 20%;
@@ -350,9 +347,9 @@ footer {
 
 /* CONTACT STYLING */
 
-#contact {
-    height: 100%;
-    overflow-x: hidden;
+#contact-wrapper {
+   height: fit-content;
+   overflow: hidden;
 }
 
 #contact h4 {
