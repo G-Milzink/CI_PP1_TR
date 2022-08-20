@@ -20,7 +20,7 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 10vh;
+    height: 75px;
     background-color: black;
     color: #DFA201;
     text-transform: capitalize;
@@ -30,9 +30,9 @@ header {
 #logo {
     position: inherit;
     display: inline;
-    top: 2.5vh;
-    left: 0;
-    padding-left: 10px;
+    float: left;
+    top: 15px;
+    left: 15px;
 }
 
 #nav-bar {
@@ -47,7 +47,7 @@ header {
 #nav-menu {
     /* float: right; */
     list-style-type: none;
-    margin-right: 30px;
+    margin: 0 15px 35px 0;
 }
 
 #nav-item {
@@ -65,39 +65,51 @@ header a {
 /* FOOTER STYLING */
 footer {
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     width: 100vw;
-    height: 10vh;
+    height: 75px;
     background-color: black;
-    color: #DFA201;
-    text-align: center;
     z-index: 10;
-}
-
-footer a {
-    position: relative;
-    color: #DFA201;
-    text-decoration: none;
-    padding: 0 10px 0px 10px;
 }
 
 #media-links {
     position: relative;
-    float: right;
-    bottom: 5vh;
-    padding-right: 10px;
+    float: left;
+    top: 20px;
+    display: inline-block;
+}
 
+#media-links a {
+    color: #DFA201;
+    padding-left: 20px;
+}
+
+#media-links i {
     font-size: 200%;
 }
 
+#footer-contact-link {
+    position: relative;
+    float: right;
+    top: 15px;
+    right: 15px;
+    text-decoration: none;
+    padding: 0 10px 0px 10px;
+    color: #DFA201;
+}
+
+
+
 /* HOMEPAGE STYLING */
 #home-bg {
-    position: relative;
-    top: 10vh;
+    position: absolute;
+    top: 75px;
     width: 100vw;
-    height: 80vh;
+    min-height: calc(100vh - 150px);
     background-image: url(../images/ryan-plomp-oi2OWSQ5Q24-unsplash_1920-900.webp);
-    background-position: center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ABOUT STYLING */
