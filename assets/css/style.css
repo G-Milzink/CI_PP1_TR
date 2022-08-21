@@ -488,7 +488,7 @@ form p {
       }
 }
 @media screen  {
-    @media (max-width: 400px) {
+    @media (max-width: 420px) {
         #logo                   {top: 5px; font-size: 80%; max-width: 50%; text-align: center;}
     }
 }
@@ -496,7 +496,7 @@ form p {
 
     /* FOOTER */
 @media screen  {
-     @media (max-width: 400px) {
+     @media (max-width: 420px) {
         #footer-contact-link    {font-size: 80%; top: 10px;}
         #media-links i          {font-size: 126%; padding-left: 0;}
     }
