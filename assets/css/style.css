@@ -41,19 +41,24 @@ header {
     position: inherit;
     top: 3.5vh;
     right: 0;
-    width: 360px;
+    width: 380px;
     float: right;
     background: black;
 }
 
 #nav-menu {
-    /* float: right; */
     list-style-type: none;
     margin: 0 15px 35px 0;
 }
 
-#nav-item {
-    display: inline;
+#nav-menu li a {
+    text-align: center;
+    padding-left: 6px;
+}
+
+.current-page {
+    border: 2px solid #DFA201;
+    border-radius: 5px;
 }
 
 header a {
@@ -476,7 +481,7 @@ form p {
 
     /* NAV-BAR */
 @media screen  {
-    @media (max-width: 630px) {
+    @media (max-width: 650px) {
         #nav-menu               { display: none; }
         #nav-dropdown           { display: inline-block;}
         #nav-bar                { width: auto;}  
