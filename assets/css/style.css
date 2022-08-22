@@ -502,27 +502,29 @@ form p {
 }   
 
 @media screen  {
-    @media (max-width: 950px) {
+    @media (max-width: 1024px) {
         #about-txt                 { font-size: 70%;
                                        right: 0;
                                        margin: 10px;
-                                       max-width: 55vw;
+                                       max-width: 45vw;
                                    }
      }
 }   
 
 
 @media screen  {
-    @media (max-width: 1024px) {
+    @media (max-width: 600px) {
         #about-img              {position: relative; 
-                                    max-height: 65vh;
+                                    max-height: 70vh;
+                                    width: auto;
                                     top: 100px;
                                 }
         #about-txt              {float: none; 
-                                    width: 100vw;
+                                    width: 50vw;
                                     text-align: center; 
                                     left: 10vw;
                                     min-width: 80vw; 
+                                    font-size: 60%;
                                 }
      }
 }   
