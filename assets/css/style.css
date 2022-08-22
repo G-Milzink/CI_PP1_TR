@@ -137,12 +137,12 @@ footer {
     text-align: center;
 }
 
-#about img {
+#about-img {
     position: fixed;
     top: 100px;
     float: left;
     left: -4px;
-    max-height: 560px;
+    max-height: 70vh;
     width: auto;
     border-radius: 0 20px 20px 0;
     border: 4px solid black;
@@ -152,16 +152,17 @@ footer {
     position: relative;
     top: 75px;
     float: right;
-    max-width: calc(100vw - 400px);
-    padding: 25px;
+    right: 5vw;
+    max-width: 65vw;
     color: #cac2ab;
+    font-size: 95%;
     height: auto;
     overflow-y: auto;
 }
 
 #about h2 {
     font-size: 250%;
-    margin-top: 20px;
+    margin-top: 75px;
     padding-bottom: 20px;
 }
 
@@ -235,8 +236,8 @@ footer {
     border-radius: 5px;
 }
 
-    /* STARTERS SECTION STYLING */
-#starters-wrapper {
+    /* MENU SECTION STYLING */
+.menu-section-wrapper {
     min-height: 100vh;
     width: 100%;
 }
@@ -262,11 +263,7 @@ footer {
 }
 
     /* MAINS SECTION STYLING */
-#mains-wrapper {
-    min-height: 100vh;
-    width: 100%;
-    background-color: blue;
-}
+
 
 #mains-txt {
     min-height: 100vh;
@@ -289,11 +286,6 @@ footer {
 }
 
     /* DESERTS SECTION STYLING */
-#deserts-wrapper {
-    min-height: 100vh;
-    width: 100%;
-    background-color: red;
-}
 
 #deserts-txt {
     min-height: 100vh;
@@ -316,11 +308,7 @@ footer {
 }
 
     /* DRINKS SECTION STYLING */
-#drinks-wrapper {
-    min-height: 100vh;
-    width: 100%;
-    background-color: green;
-}
+
 
 #drinks-txt {
     min-height: 100vh;
@@ -343,11 +331,7 @@ footer {
 }
 
     /* BITES SECTION STYLING */
-#bites-wrapper {
-    min-height: 100vh;
-    width: 100%;
-    background-color: purple;
-}
+
 
 #bites-txt {
     min-height: calc(100vh - 150px);
@@ -506,3 +490,39 @@ form p {
         #media-links i          {font-size: 126%; padding-left: 0;}
     }
 }
+
+    /* ABOUT PAGE */
+ @media screen  {
+     @media (max-width: 1200px) {
+         #about-txt                 { font-size: 80%;
+                                        right: 0;
+                                        margin: 10px;
+                                    }
+      }
+}   
+
+@media screen  {
+    @media (max-width: 950px) {
+        #about-txt                 { font-size: 70%;
+                                       right: 0;
+                                       margin: 10px;
+                                       max-width: 55vw;
+                                   }
+     }
+}   
+
+
+@media screen  {
+    @media (max-width: 750px) {
+        #about-img              {position: relative; 
+                                    max-height: 65vh;
+                                    top: 100px;
+                                }
+        #about-txt              {float: none; 
+                                    width: 100vw;
+                                    text-align: center; 
+                                    left: 10vw;
+                                    min-width: 80vw; 
+                                }
+     }
+}   
