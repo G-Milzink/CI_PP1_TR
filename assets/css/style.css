@@ -139,10 +139,10 @@ footer {
 
 #about-img {
     position: fixed;
-    top: 100px;
+    top: 12vh;
     float: left;
     left: -4px;
-    max-height: 70vh;
+    max-height: 76vh;
     width: auto;
     border-radius: 0 20px 20px 0;
     border: 4px solid black;
@@ -505,11 +505,13 @@ form p {
 
 @media screen  {
     @media (max-width: 1024px) {
-        #about-txt                 { font-size: 70%;
-                                       right: 7.5%;
-                                       margin: auto;
-                                       max-width: 40vw;
-                                   }
+        #about-txt                  { font-size: 70%;
+                                        margin: auto;
+                                        padding-right: 7.5%;
+                                        padding-bottom: 5px;
+                                        max-width: 40vw;
+                                    }
+        #about-txt h2               {padding-bottom: 5px;}
      }
 }   
 
@@ -523,8 +525,8 @@ form p {
                                 }
         #about-txt              {float: none; 
                                     width: 50vw;
-                                    text-align: center; 
-                                    margin: 0 auto 115px auto;
+                                    margin-left: 55px;
+                                    padding-bottom: 5px;
                                     min-width: 80vw; 
                                     font-size: 60%;
                                 }
