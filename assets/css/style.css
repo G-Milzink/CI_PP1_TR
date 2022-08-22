@@ -158,6 +158,8 @@ footer {
     font-size: 95%;
     height: auto;
     overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about h2 {
@@ -495,7 +497,7 @@ form p {
  @media screen  {
      @media (max-width: 1200px) {
          #about-txt                 { font-size: 80%;
-                                        right: 0;
+                                        right: 2.5vw;
                                         margin: 10px;
                                     }
       }
@@ -504,9 +506,9 @@ form p {
 @media screen  {
     @media (max-width: 1024px) {
         #about-txt                 { font-size: 70%;
-                                       right: 0;
-                                       margin: 10px;
-                                       max-width: 45vw;
+                                       right: 7.5%;
+                                       margin: auto;
+                                       max-width: 40vw;
                                    }
      }
 }   
@@ -515,14 +517,14 @@ form p {
 @media screen  {
     @media (max-width: 600px) {
         #about-img              {position: relative; 
-                                    max-height: 70vh;
+                                    max-height: 65vh;
                                     width: auto;
                                     top: 100px;
                                 }
         #about-txt              {float: none; 
                                     width: 50vw;
                                     text-align: center; 
-                                    left: 10vw;
+                                    margin: 0 auto 115px auto;
                                     min-width: 80vw; 
                                     font-size: 60%;
                                 }
