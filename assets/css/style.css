@@ -496,35 +496,41 @@ form p {
  @media screen  {
      @media (max-width: 1200px) {
          #about-txt                 { font-size: 80%;
-                                        right: 2.5vw;
+                                        right: 10vw;
                                         margin: 10px;
+                                        max-width: 50vw;
                                     }
       }
 }   
 
 @media screen  {
     @media (max-width: 1024px) {
-        #about-txt                  { font-size: 70%;
+        #about-txt                  { font-size: 80%;
+                                        right: 5vw;
                                         margin: auto;
-                                        padding-right: 7.5%;
                                         padding-bottom: 5px;
-                                        max-width: 40vw;
+                                        max-width: 50vw;
                                     }
         #about-txt h2               {padding-bottom: 5px;}
      }
 }   
 
+@media screen  {
+    @media (max-width: 800px) {
+        #about-txt                  { max-width: 40vw;}
+}   
 
 @media screen  {
-    @media (max-width: 600px) {
+    @media (max-width: 650px) {
         #about-img              {position: relative; 
                                     max-height: 65vh;
                                     width: auto;
                                     top: 100px;
                                 }
         #about-txt              {float: none; 
-                                    width: 50vw;
-                                    margin-left: 55px;
+                                    max-width: 40vw;
+                                    margin-left: 45px;
+                                    top: 50px;
                                     padding-bottom: 5px;
                                     min-width: 80vw; 
                                     font-size: 60%;
