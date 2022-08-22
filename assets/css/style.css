@@ -19,7 +19,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100vw;
+    min-width: 100vw;
     height: 75px;
     background-color: black;
     color: #DFA201;
@@ -246,7 +246,7 @@ footer {
 #starters-txt {
     min-height: 100vh;
     position: absolute;
-    top: 15vh;
+    top: 12vh;
     margin-left: 20%;
     text-align: center;
     color: #cac2ab;
@@ -269,7 +269,7 @@ footer {
 #mains-txt {
     min-height: 100vh;
     position: absolute;
-    top: 115vh;
+    top: 112vh;
     margin-left: 20%;
     text-align: center;
     color: #cac2ab;
@@ -291,7 +291,7 @@ footer {
 #deserts-txt {
     min-height: 100vh;
     position: absolute;
-    top: 215vh;
+    top: 212vh;
     margin-left: 20%;
     text-align: center;
     color: #cac2ab;
@@ -314,7 +314,7 @@ footer {
 #drinks-txt {
     min-height: 100vh;
     position: absolute;
-    top: 315vh;
+    top: 312vh;
     margin-left: 20%;
     text-align: center;
     color: #cac2ab;
@@ -337,7 +337,7 @@ footer {
 #bites-txt {
     min-height: calc(100vh - 150px);
     position: absolute;
-    top: 415vh;
+    top: 412vh;
     margin-left: 20%;
     text-align: center;
     color: #cac2ab;
@@ -370,9 +370,11 @@ footer {
 
 /* CONTACT STYLING */
 
-/* #contact-wrapper {
+#contact-wrapper {
    min-height: 100vh;
-} */
+   height: auto;
+   width: 100vw;
+}
 
 #contact h4 {
     font-size: 150%;
@@ -430,6 +432,7 @@ footer {
     border-radius: 20px 0 0 20px;
     background-color: #927E4D;
     color: black;
+    margin-bottom: auto;
 }
 
 #form-header {
@@ -518,7 +521,8 @@ form p {
 @media screen  {
     @media (max-width: 800px) {
         #about-txt                  { max-width: 40vw;}
-}   
+    }   
+}
 
 @media screen  {
     @media (max-width: 650px) {
@@ -553,3 +557,21 @@ form p {
         #gallery             {column-count: 1;}
         }
 }   
+
+@media screen  {
+    @media (max-width: 1200px) {
+        #form-wrapper         { position: relative;
+                                right: -4px;
+                                float: right;
+                                overflow-x: hidden;
+                                margin-top: 40px;
+                                margin-bottom: 200px;}
+        }
+}   
+
+@media screen  {
+    @media (max-width: 600px) {
+        #iframe-wrapper, #adress-wrapper, #form-wrapper {max-width: 90vw;}
+        #adress-wrapper, #form-wrapper {font-size: 80%;}      
+    }
+}
