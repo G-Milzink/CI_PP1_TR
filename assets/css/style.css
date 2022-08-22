@@ -178,8 +178,6 @@ footer {
 /* MENU STYLING */
 #menu {
     min-height: auto;
-    width: 100%;
-    overflow: hidden;
 }
 
 #menu h3 {
@@ -192,10 +190,10 @@ footer {
     /* MENU SIDEBAR STYLING */
 #sidebar {
     position: fixed;
-    top: 100px;
+    top: 12vh;
     float: left;
     left: -4px;
-    height: 560px;
+    height: 74vh;
     width: 130px;
     background-color: #927E4D;
     color: #402C13;
@@ -242,6 +240,7 @@ footer {
 .menu-section-wrapper {
     min-height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 
 #starters-txt {
@@ -255,10 +254,10 @@ footer {
 
 #starters-img {
     position: absolute;
-    top: 15vh;
+    top: 12vh;
     float: right;
     right: -4px;
-    max-height: 70vh;
+    max-height: 74vh;
     width: auto;
     border-radius: 20px 0 0 20px;
     border: 4px solid black;    
@@ -278,13 +277,13 @@ footer {
 
 #mains-img {
     position: absolute;
-    top: 115vh;
+    top: 112vh;
     float: right;
     right: -4px;
-    max-height: 70vh;
+    max-height: 74vh;
     width: auto;
     border-radius: 20px 0 0 20px;
-    border: 4px solid black;
+    border: 4px solid black;   
 }
 
     /* DESERTS SECTION STYLING */
@@ -300,13 +299,13 @@ footer {
 
 #deserts-img {
     position: absolute;
-    top: 215vh;
+    top: 212vh;
     float: right;
     right: -4px;
-    max-height: 70vh;
+    max-height: 74vh;
     width: auto;
     border-radius: 20px 0 0 20px;
-    border: 4px solid black;
+    border: 4px solid black;   
 }
 
     /* DRINKS SECTION STYLING */
@@ -323,13 +322,13 @@ footer {
 
 #drinks-img {
     position: absolute;
-    top: 315vh;
+    top: 312vh;
     float: right;
     right: -4px;
-    max-height: 70vh;
+    max-height: 74vh;
     width: auto;
     border-radius: 20px 0 0 20px;
-    border: 4px solid black;
+    border: 4px solid black;   
 }
 
     /* BITES SECTION STYLING */
@@ -346,13 +345,13 @@ footer {
 
 #bites-img {
     position: absolute;
-    top: 415vh;
+    top: 412vh;
     float: right;
     right: -4px;
-    max-height: 70vh;
+    max-height: 74vh;
     width: auto;
     border-radius: 20px 0 0 20px;
-    border: 4px solid black;
+    border: 4px solid black;   
 }
 
 /* GALLERY STYLING */
@@ -531,4 +530,20 @@ form p {
                                     font-size: 60%;
                                 }
      }
+}   
+
+    /* MENU PAGE */
+
+
+    /* GALLERY */
+@media screen  {
+    @media (max-width: 1024px) {
+        #gallery             {column-count: 2;}
+        }
+}   
+
+@media screen  {
+    @media (max-width: 600px) {
+        #gallery             {column-count: 1;}
+        }
 }   
