@@ -10,7 +10,6 @@
 }
 
 body {
-    height: fit-content;
     background-color: #402C13;
     font-family: 'Playfair Display', sans-serif;
     font-style: italic;
@@ -86,7 +85,7 @@ header a {
 /* FOOTER STYLING */
 footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     width: 100vw;
     height: 75px;
     background-color: black;
@@ -386,10 +385,9 @@ footer {
 
 /* CONTACT STYLING */
 
-#contact-wrapper {
-   height: fit-content;
-   overflow: hidden;
-}
+/* #contact-wrapper {
+   min-height: 100vh;
+} */
 
 #contact h4 {
     font-size: 150%;
@@ -437,8 +435,8 @@ footer {
 }
 
 #form-wrapper {
-    position: relative;
-    top: -440px;
+    position: absolute;
+    top: 100px;
     float: right;
     right: -4px;
     width: 600px;
