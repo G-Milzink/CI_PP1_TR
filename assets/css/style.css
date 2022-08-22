@@ -513,7 +513,7 @@ form p {
 
 
 @media screen  {
-    @media (max-width: 800px) {
+    @media (max-width: 850px) {
         #about-img              {position: relative; 
                                     max-height: 65vh;
                                     top: 100px;
