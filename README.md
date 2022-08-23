@@ -48,7 +48,7 @@
 ### Site Owner Goals
 - Atracting new customers to the restaurant.
 - Presenting information about the restaurant to customers.
-- Provide a way for new and existing customers to contact the restaurant.
+- Provide a quick way for new and existing customers to make reservations.
 - Promoting the bussines.
 
 ## User Experience
@@ -63,5 +63,25 @@
 - Links and functions that work as expected.
 - Quickly and easily find relevant information.
 - Good presentation and a visually appealing design regardless of screen size.
-- An easy way to contact the bussines.
+- An easy way to make a reservation.
 
+### User Stories
+
+#### First-time User 
+1. As a first time user, I want to know the location of the restaurant.
+2. As a first time user, I want to know more about the restaurant.
+3. As a first time user, I want to know the restaurant's price range.
+4. As a first time user, I want to get a feel of the general atmosphere.
+
+#### Returning User
+5. As a returning user, I want to see the curent menu.
+6. As a returnign user, I want to know the opening times.
+7. As a returning user, I want to find a phone number to call for reservation
+8. As a returning user, I want to leave some comment, suggestion or message to the staff.
+9. As a returning user, I want to find the restaurant on social media
+10. As a returning user, I want to get directions to the restaurant
+
+#### Site Owner 
+11. As the site owner, I want users to see our menu or changes in opening times.
+12. As the site owner, I want users to get to know the restaurant. 
+13. As the site owner, I want the users to be able to contact us.
