@@ -440,7 +440,7 @@ footer {
     width: auto;
     font-size: 200%;
     text-align: center;
-    margin-top: 25PX;
+    margin-top: 25px;
     margin-bottom: 40px;
 }
 
@@ -561,14 +561,14 @@ form p {
 
     /* CONTACT PAGE */
 @media screen  {
-    @media (max-width: 1250px) {
+    @media (max-width: 1200px) {
         #form-wrapper         { position: relative;
                                 right: -4px;
                                 float: right;
                                 overflow-x: hidden;
                                 margin-top: 40px;
                                 margin-bottom: 200px;}
-        }
+    }
 }   
 
 @media screen  {
