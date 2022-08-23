@@ -98,5 +98,36 @@ Contrast has been tested on WebAIM and colours have been adapted where necessary
 <br>
 
 ![Colour scheme](docs/colours/colour-scheme.png)
-![Colour scheme](docs/colours/contrast1.png)
-![Colour scheme](docs/colours/contrast2.png)
+![Main colour scheme WebAIM test](docs/colours/contrast1.png)
+![Secondary colour scheme WebAIM test](docs/colours/contrast2.png)
+
+### Fonts
+Playfair-Display  with cursive as fallback was used for all tekst as to match the font used on thee physical menu.
+
+### Structure
+The page uses a often used and easily recognized layout. 
+A navigation bar is pinned to the top of every page providing easy navigation 
+The website consists of five separate pages: 
+- A homepage wich offers a view of the terras from one of the tables.
+- An about page with the "About Us" tekst and an indoor shot of the restaurant.
+- A menu page with its own side-bar for easy navigation to the different menu sections.
+- A image gallery with images taken at the restaurant aswell as general inspiring pictures of food and food preparation.
+- A contact page with a contact/reservation form, a map and the resaurant's location and contact information.
+
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="docs/wireframes/wireframe-home.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/wireframes/wireframe-about.png">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/wireframes/wireframe-menu.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/wireframes/wireframe-gallery.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/wireframe-contact.png">
+</details>
