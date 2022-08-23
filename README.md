@@ -157,7 +157,7 @@ The website consists of five separate pages:
 - Google Fonts
 
 ## Features
-The page consists of five pages and fourteen features
+The page consists of five pages and ?? features
 
 ### Logo and Navigation Bar
 - Featured on all five pages
@@ -168,7 +168,11 @@ links to the Homepage, About page, Menu page, Gallery and Contact  page
 
 ![Logo and navbar](docs/features/navigation-bar.png)
 
-- The footer is always displayed at the bottom of the page and provides quick acces to social media links and the contact page
-(aimed at returning customers who just want to make a quick reservation)
+### Footer
+- Featured on all five pages
+- Consists of two sections: social media links on the left and a quick-link to the contact section on the right.
 
-![Footer](docs/features/footer.png)
+![Footer](docs/features/footer.png) 
+
+### About Us
+- Gives a description of the restaurant and its history with a image of the interior of the building on the left side
