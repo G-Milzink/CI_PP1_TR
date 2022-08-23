@@ -11,7 +11,7 @@
 
 body {
     background-color: #402C13;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display', cursive;
     font-style: italic;
 }
 
@@ -195,8 +195,8 @@ footer {
     left: -4px;
     height: 74vh;
     width: 130px;
-    background-color: #927E4D;
-    color: #402C13;
+    background-color: #B3A375;
+    color: #23170B;
     border-radius: 0 20px 20px 0;
     border: 4px solid black;
     text-align: center;
@@ -232,7 +232,7 @@ footer {
 }
 
 #sidebar a:hover {
-    border: 2px solid #402C13;
+    border: 2px solid #23170B;
     border-radius: 5px;
 }
 
@@ -403,7 +403,7 @@ footer {
     width: 600px;
     border: 4px solid black;
     border-radius: 0 20px 20px 0;
-    background-color: #927E4D;
+    background-color: #B3A375;
 
 }
 
@@ -430,7 +430,7 @@ footer {
     height: 560px;
     border: 4px solid black;
     border-radius: 20px 0 0 20px;
-    background-color: #927E4D;
+    background-color: #B3A375;
     color: black;
     margin-bottom: auto;
 }

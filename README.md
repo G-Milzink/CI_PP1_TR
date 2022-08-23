@@ -85,3 +85,18 @@
 11. As the site owner, I want users to see our menu or changes in opening times.
 12. As the site owner, I want users to get to know the restaurant. 
 13. As the site owner, I want the users to be able to contact us.
+
+## Design
+
+### Design Choices
+The design of the website is tailored towards giving a sense of the atmosphere in the restaurant, a warm and cozy place but with a touch of class.
+Sharp corners have been avoided to give a welcoming appearance.
+
+### Colour
+The colour scheme was chosen to match the colours used in the restaurant.  
+Contrast has been tested on WebAIM and colours have been adapted where necessary to ensure legibility.
+<br>
+
+![Colour scheme](docs/colours/colour-scheme.png)
+![Colour scheme](docs/colours/contrast1.png)
+![Colour scheme](docs/colours/contrast2.png)
