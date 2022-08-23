@@ -118,8 +118,6 @@ footer {
     font-size: 120%;
 }
 
-
-
 /* HOMEPAGE STYLING */
 #home-bg {
     position: absolute;
@@ -404,21 +402,23 @@ footer {
     border: 4px solid black;
     border-radius: 0 20px 20px 0;
     background-color: #B3A375;
+    font-size: 140%;
+    font-weight: normal;
 
 }
 
 #adress {
     position: relative;
     float: left;
-    left: 5vw;
-    top: 20px;
+    left: 7.5vw;
+    top: 15px;
 }
 
 #contact-info {
     position: relative;
     float: left;
     left: 10vw;
-    top: 20px;
+    top: 15px;
 }
 
 #form-wrapper {
@@ -440,6 +440,7 @@ footer {
     width: auto;
     font-size: 200%;
     text-align: center;
+    margin-top: 25PX;
     margin-bottom: 40px;
 }
 
@@ -545,7 +546,7 @@ form p {
     /* MENU PAGE */
 
 
-    /* GALLERY */
+    /* GALLERY PAGE */
 @media screen  {
     @media (max-width: 1024px) {
         #gallery             {column-count: 2;}
@@ -558,8 +559,9 @@ form p {
         }
 }   
 
+    /* CONTACT PAGE */
 @media screen  {
-    @media (max-width: 1200px) {
+    @media (max-width: 1250px) {
         #form-wrapper         { position: relative;
                                 right: -4px;
                                 float: right;
@@ -571,7 +573,11 @@ form p {
 
 @media screen  {
     @media (max-width: 600px) {
-        #iframe-wrapper, #adress-wrapper, #form-wrapper {max-width: 90vw;}
-        #adress-wrapper, #form-wrapper {font-size: 80%;}      
+        #iframe-wrapper, #adress-wrapper, #form-wrapper {max-width: 95vw;}
+        #adress-wrapper                                 {font-size: 100%;}
+        #form-wrapper                                   {font-size: 70%; height: fit-content;}
+        #form-wrapper label                             {left: 5px;}   
+        #form-wrapper input                             {font-size: 110%; left: 48vw; max-width: 130px;}
+        #form-wrapper p                                 {top: -25px;}
     }
 }
