@@ -139,3 +139,36 @@ The website consists of five separate pages:
 <details><summary>Contact</summary>
 <img src="docs/wireframes/wireframe-contact.png">
 </details>
+<br>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- GitHub
+- Gitpod
+- Gimp 2.10
+- Balsamiq
+- Swatcher
+- Font Awsome
+- Google Fonts
+
+## Features
+The page consists of five pages and fourteen features
+
+### Logo and Navigation Bar
+- Featured on all five pages
+- The navbar is fully responsive and changes to a dropdown menu on smaller screens and includes
+links to the Homepage, About page, Menu page, Gallery and Contact  page
+- It allows users to easily navigate the page
+- The link for the page the user is currently on is highlighted 
+
+![Logo and navbar](docs/features/navigation-bar.png)
+
+- The footer is always displayed at the bottom of the page and provides quick acces to social media links and the contact page
+(aimed at returning customers who just want to make a quick reservation)
+
+![Footer](docs/features/footer.png)
