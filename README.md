@@ -98,8 +98,16 @@ Contrast has been tested on WebAIM and colours have been adapted where necessary
 <br>
 
 ![Colour scheme](docs/colours/colour-scheme.png)
-![Main colour scheme WebAIM test](docs/colours/contrast1.png)
-![Secondary colour scheme WebAIM test](docs/colours/contrast2.png)
+<details><summary>Main colour-scheme WebAIM test </summary>
+<img src="docs/colours/contrast1.png">
+</details>
+<details><summary>Header/Footer colour-scheme WebAIM test </summary>
+<img src="docs/colours/contrast2.png">
+</details>
+<details><summary>Main colour scheme WebAIM test </summary>
+<img src="docs/colours/contrast3.png">
+</details>
+<br>
 
 ### Fonts
 Playfair-Display  with cursive as fallback was used for all tekst as to match the font used on thee physical menu.
