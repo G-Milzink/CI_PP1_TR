@@ -241,115 +241,27 @@ footer {
     overflow-x: hidden;
 }
 
-#starters-txt {
+.menu-section-txt{
+    max-height: 74vh;
     min-height: 100vh;
-    position: absolute;
+    position: relative;
+    float: left;
     top: 12vh;
     margin-left: 20%;
     text-align: center;
     color: #cac2ab;
 }
 
-#starters-img {
-    position: absolute;
-    top: 12vh;
+.menu-section-img
+{
+    position: relative;
     float: right;
+    top: 12vh;
     right: -4px;
     max-height: 74vh;
     width: auto;
     border-radius: 20px 0 0 20px;
     border: 4px solid black;    
-}
-
-    /* MAINS SECTION STYLING */
-
-
-#mains-txt {
-    min-height: 100vh;
-    position: absolute;
-    top: 112vh;
-    margin-left: 20%;
-    text-align: center;
-    color: #cac2ab;
-}
-
-#mains-img {
-    position: absolute;
-    top: 112vh;
-    float: right;
-    right: -4px;
-    max-height: 74vh;
-    width: auto;
-    border-radius: 20px 0 0 20px;
-    border: 4px solid black;   
-}
-
-    /* DESERTS SECTION STYLING */
-
-#deserts-txt {
-    min-height: 100vh;
-    position: absolute;
-    top: 212vh;
-    margin-left: 20%;
-    text-align: center;
-    color: #cac2ab;
-}
-
-#deserts-img {
-    position: absolute;
-    top: 212vh;
-    float: right;
-    right: -4px;
-    max-height: 74vh;
-    width: auto;
-    border-radius: 20px 0 0 20px;
-    border: 4px solid black;   
-}
-
-    /* DRINKS SECTION STYLING */
-
-
-#drinks-txt {
-    min-height: 100vh;
-    position: absolute;
-    top: 312vh;
-    margin-left: 20%;
-    text-align: center;
-    color: #cac2ab;
-}
-
-#drinks-img {
-    position: absolute;
-    top: 312vh;
-    float: right;
-    right: -4px;
-    max-height: 74vh;
-    width: auto;
-    border-radius: 20px 0 0 20px;
-    border: 4px solid black;   
-}
-
-    /* BITES SECTION STYLING */
-
-
-#bites-txt {
-    min-height: calc(100vh - 150px);
-    position: absolute;
-    top: 412vh;
-    margin-left: 20%;
-    text-align: center;
-    color: #cac2ab;
-}
-
-#bites-img {
-    position: absolute;
-    top: 412vh;
-    float: right;
-    right: -4px;
-    max-height: 74vh;
-    width: auto;
-    border-radius: 20px 0 0 20px;
-    border: 4px solid black;   
 }
 
 /* GALLERY STYLING */
