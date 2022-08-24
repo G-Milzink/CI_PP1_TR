@@ -204,6 +204,7 @@ footer {
     border-radius: 0 20px 20px 0;
     border: 4px solid black;
     text-align: center;
+    z-index: 10;
 
     animation-name: slide-bar;
     animation-duration: 1s;
@@ -217,6 +218,8 @@ footer {
 
 #sidebar ul {
     position: relative;
+    top: auto;
+
 
 }
 
@@ -249,12 +252,13 @@ footer {
 }
 
 .menu-section-txt{
+    position: relative;
     max-height: 74vh;
     min-height: 100vh;
-    position: relative;
+    width: 50vw;
     float: left;
+    left: 130px;
     top: 12vh;
-    margin-left: 20%;
     text-align: center;
     color: #cac2ab;
 }
@@ -268,7 +272,7 @@ footer {
     max-height: 76vh;
     width: auto;
     border-radius: 20px 0 0 20px;
-    border: 4px solid black;    
+    border: 4px solid black;
 }
 
 /* GALLERY STYLING */
@@ -289,9 +293,10 @@ footer {
 
 #contact-wrapper {
    min-height: 100vh;
-   height: auto;
+   height: fit-content;
    width: 100vw;
    max-width: calc(100vw - 4px);
+   overflow-x: hidden;
 }
 
 #contact h4 {
