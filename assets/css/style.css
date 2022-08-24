@@ -372,6 +372,7 @@ footer {
    min-height: 100vh;
    height: auto;
    width: 100vw;
+   max-width: calc(100vw - 4px);
 }
 
 #contact h4 {
