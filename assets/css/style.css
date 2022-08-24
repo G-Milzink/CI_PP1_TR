@@ -119,7 +119,7 @@ footer {
 }
 
 /* HOMEPAGE STYLING */
-#home-bg {
+#home-bg, #oops-bg {
     position: absolute;
     top: 75px;
     width: 100vw;
