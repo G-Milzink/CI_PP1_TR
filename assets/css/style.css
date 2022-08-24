@@ -400,7 +400,7 @@ form p {
     top: 75px;
     width: 100vw;
     min-height: calc(100vh - 150px);
-    background-image: url(../images/oops.png);
+    background-image: url(images/oops.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
