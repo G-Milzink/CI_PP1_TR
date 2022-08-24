@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hole in the Wall</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo"><h1>Hole in the Wall</h1></a>
+        <nav id="nav-bar">
+            <ul id="nav-menu">
+                <li>
+                    <a href="contact.html"><h3>contact</h3></a>
+                </li>
+                <li>
+                    <a href="gallery.html"><h3>gallery</h3></a>
+                </li>
+                <li>
+                    <a href="menu.html"><h3>menu</h3></a>
+                </li>
+                <li>
+                    <a href="about.html"><h3>about</h3></a>
+                </li>
+                <li>
+                    <a href="index.html" class="current-page"><h3>home</h3></a>
+                </li>
+            </ul>
+            <select onchange="window.open(this.value,'_self');" id="nav-dropdown">
+                <option value="#">Home</option>
+                <option value="about.html">About</option>
+                <option value="menu.html">Menu</option>
+                <option value="gallery.html">Gallery</option>
+                <option value="contact.html">Contact</option>
+            </select>
+        </nav>
+    </header>
+    <section id="home-bg"></section>
+    <footer>
+        <a href="contact.html" id="footer-contact-link"><h1>Reservations</h1></a>
+        <div id="media-links">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></i></a>
+            <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <!-- FONT-AWESOME SCRIPT (CODE TAKEN FROM FONT-AWESOME SITE) -->
+    <script src="https://kit.fontawesome.com/3920a9a7fd.js" crossorigin="anonymous"></script>
+</body>
+</html>
