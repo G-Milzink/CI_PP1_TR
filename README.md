@@ -40,8 +40,8 @@
 ## Project Goals
 
 ### User Goals
-- Finding a restaurant with an interesting kitchen and get a sense of the  atmosphere.
-- Having access to the full menu and pricing.
+- Finding a restaurant with an interesting kitchen and get a sense of the atmosphere.
+- Having access to the full menu and pricing details.
 - Finding extra information about the reastaurant.
 - Finding the location of the restaurant.
 
