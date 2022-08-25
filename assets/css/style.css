@@ -606,6 +606,15 @@ form p {
     }
 }
 
+@media screen {
+    @media (max-height: 650px){
+        #sidebar {
+            max-height: 70vh;
+            top: 16vh;
+        }
+    }
+}
+
 /* GALLERY PAGE */
 @media screen {
     @media (max-width: 1024px) {
