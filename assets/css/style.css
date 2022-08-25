@@ -226,8 +226,8 @@ footer {
 
 #sidebar ul {
     position: relative;
-    height: 16.6%;
-    top: -4vh;
+    height: 10%;
+    top: 4vh;
 }
 
 #sidebar li {
