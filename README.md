@@ -210,7 +210,7 @@ Includes a side bar for easy navigation between menu sections
 ## Validation
 
 ### HTML Validation
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass without errors or warnings.
 <details><summary>Home</summary>
 <img src="docs/validation/markup-valid-home.webp">
 </details>
@@ -223,6 +223,16 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <details><summary>Gallery</summary>
 <img src="docs/validation/markup-valid-menu.webp">
 </details>
-<details><summary>Home</summary>
+<details><summary>Contact</summary>
 <img src="docs/validation/markup-valid-contact.webp">
+</details>
+
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. All CSS passed without errors.
+<details><summary>whole page</summary>
+<img src="docs/validation/css-valid-wholepage.webp">
+</details>
+<details><summary>style.css</summary>
+<img src="docs/validation/css-valid-style_css.webp">
 </details>
