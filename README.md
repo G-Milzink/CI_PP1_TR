@@ -191,8 +191,9 @@ links to the Homepage, About page, Menu page, Gallery and Contact  page
 Divided into five sections (one for each category)
 Includes a side bar for easy navigation between menu sections
 
-![About](docs/features/menu.webp)
+![Menu](docs/features/menu.webp)
 
 ### Gallery
-- Page displaying a selection of images of food and food preparation both from the restaurant and other sources.
-![About](docs/features/menu.webp)
+- Page displaying a selection of images of food and food preparation both from the restaurant and the owners private collection.
+
+![Gallery](docs/features/gallery.png)
