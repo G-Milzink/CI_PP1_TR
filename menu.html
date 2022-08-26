@@ -15,6 +15,7 @@
 
 <body>
     <header>
+        <!-- navigation bar and logo - main site navigation -->
         <a href="index.html" id="logo" aria-label="Jump directly to our homepage">
             <h1>Hole in the Wall</h1>
         </a>
@@ -46,6 +47,7 @@
                     </a>
                 </li>
             </ul>
+            <!-- dropdown menu for site navigation at low resolutions -->
             <select onchange="window.open(this.value,'_self');" id="nav-dropdown" aria-label="Dropdown menu for site navigation">
                 <option value="#">Menu</option>
                 <option value="index.html">Home</option>
@@ -55,7 +57,9 @@
             </select>
         </nav>
     </header>
+    <!-- Menu section -->
     <section id="menu">
+        <!-- Animated sidebar for menu-page navigation -->
         <div id="sidebar">
             <ul>
                 <li><a href="#starters" aria-label="Jump to the starters section of our menu.">Starters</a></li>
@@ -73,6 +77,7 @@
                 <li><a href="#bites" aria-label="Jump to the bites section of our menu.">Bites</a></li>
             </ul>
         </div>
+        <!-- menu: starters section (items) -->
         <div id="starters" class="menu-section-wrapper">
             <div class="menu-section-txt">
                 <h2>Starters</h2>
@@ -95,8 +100,10 @@
                     €205.99
                 </p>
             </div>
+            <!-- starters image -->
             <img class="menu-section-img" src="assets/images/menu/starters-img.webp" alt="A picture of a plate with a slice of tortilla">
         </div>
+        <!-- menu: main courses section (items) -->
         <div id="mains" class="menu-section-wrapper">
             <div class="menu-section-txt">
                 <h2>Mains</h2>
@@ -119,8 +126,10 @@
                     €205.99
                 </p>
             </div>
+            <!-- main courses image -->
             <img class="menu-section-img" src="assets/images/menu/mains-img.webp" alt="A picture of a bowl of red-lentil soup">
         </div>
+        <!-- menu: deserts section (items) -->
         <div id="deserts" class="menu-section-wrapper">
             <div class="menu-section-txt">
                 <h2>Deserts</h2>
@@ -143,8 +152,10 @@
                     €205.99
                 </p>
             </div>
+            <!-- deserts image -->
             <img class="menu-section-img" src="assets/images/menu/deserts-img.webp" alt="A picture of a chocolate cake">
         </div>
+        <!-- menu: drinks section (items) -->
         <div id="drinks" class="menu-section-wrapper">
             <div class="menu-section-txt">
                 <h2>Drinks</h2>
@@ -167,8 +178,10 @@
                     €205.99
                 </p>
             </div>
+            <!-- drinks image -->
             <img class="menu-section-img" src="assets/images/menu/drinks-img.webp" alt="A picture of a Mojito">
         </div>
+        <!-- Menu bites section (items) -->
         <div id="bites" class="menu-section-wrapper">
             <div class="menu-section-txt">
                 <h2>Bites</h2>
@@ -191,13 +204,16 @@
                     €205.99
                 </p>
             </div>
+            <!-- bites image -->
             <img class="menu-section-img" src="assets/images/menu/bites-img.webp" alt="A picture of a piece of french cheese.">
         </div>
     </section>
     <footer>
+        <!-- Direct link to contact page -->
         <a href="contact.html" id="footer-contact-link" aria-label="Jump directly to our contact page">
             <h1>Reservations</h1>
         </a>
+        <!-- Social media links -->
         <div id="media-links">
             <a href="https://www.facebook.com" target="_blank"
                 aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
