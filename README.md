@@ -203,6 +203,7 @@ Includes a side bar for easy navigation between menu sections
 ### Contact
 - Page displaying an embedded google maps link pointing ot the restaurant location. A section containing adress and contact-info and a reservations-form allowing customers to reserve a table online.
 - user stories covered:1, 8, 14, 15
+
 ![Gallery](docs/features/map.webp)
 
 ![Gallery](docs/features/adress.webp)
@@ -335,7 +336,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Homepage|Visit Website|See the restaurant|Works as expected|
+|Homepage|Visit Website|See image of restaurant|Works as expected|
 |About page|Visit about page|See restaurant interior|Works as expected|
 |Gallery page|Visit gallery page|Find pictures of the restaurant|Works as expected|
 <details><summary>Screenshot</summary>
@@ -353,13 +354,17 @@ The website was tested on the following browsers:
 <img src="docs/user-stories/user-story-6a.webp">
 </details>
 
-7. 
+7. Missing
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
 
 8. As a returning user, I want to be able to quickly make reservations
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Reservations form|Look for way to book a table|find reservation form and contact info|Works as expected|
+|Reservations form|Navigate to contact page|find reservation form and contact info|Works as expected|
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-story-8a.webp">
 </details>
@@ -372,3 +377,9 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-story-9a.webp">
 </details>
+
+10. As a returning user, I want to get directions to the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|map|navigate to contact page|Find map with location of restaurant|Worsk as expected|
