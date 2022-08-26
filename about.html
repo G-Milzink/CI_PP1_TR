@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        <!-- navigation bar and logo - main site navigation -->
         <a href="index.html" id="logo" aria-label="Jump directly to our homepage"><h1>Hole in the Wall</h1></a>
         <nav id="nav-bar">
             <ul id="nav-menu">
@@ -32,6 +33,7 @@
                     <a href="index.html" aria-label="Jump directly to our homepage"><h3>home</h3></a>
                 </li>
             </ul>
+            <!-- dropdown menu for site navigation at low resolutions -->
             <select onchange="window.open(this.value,'_self');" id="nav-dropdown" aria-label="Dropdown menu for site navigation">
                 <option value="#">About</option>
                 <option value="index.html">Home</option>
@@ -42,7 +44,9 @@
         </nav>
     </header>
     <section id="about">
+        <!-- "About us' image -->
         <img src="assets/images/indoor-shot_1000x1500.webp" id="about-img" alt="A picture of the restaurant's interior">
+        <!-- 'About us" article -->
         <article id="about-txt">
             <h2>About us:</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -53,7 +57,9 @@
         </article>
     </section>
     <footer>
+        <!-- Direct link to contact page -->
         <a href="contact.html" id="footer-contact-link" aria-label="Jump directly to our contact page"><h1>Reservations</h1></a>
+        <!-- Social media links -->
         <div id="media-links">
             <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
             <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
