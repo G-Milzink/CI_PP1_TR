@@ -236,3 +236,40 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 <details><summary>style.css</summary>
 <img src="docs/validation/css-valid-style_css.webp">
 </details>
+
+### Accessibility
+WAVE accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+<details><summary>Home</summary>
+<img src="docs/validation/validation-accessibility-index.jpg">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/validation-accessibility-about.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/validation-accessibility-menu.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/validation-accessibility-gallery.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/validation-accessibility-contact.jpg">
+</details>
+
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse-performance-index.jpg">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/lighthouse-performance-about.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/lighthouse-performance-menu.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/lighthouse-performance-gallery.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/lighthouse-performance-contact.jpg">
+</details>
