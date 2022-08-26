@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        <!-- navigation bar and logo - main site navigation -->
         <a href="index.html" id="logo" aria-label="Jump directly to our homepage"><h1>Hole in the Wall</h1></a>
         <nav id="nav-bar">
             <ul id="nav-menu">
@@ -32,6 +33,7 @@
                     <a href="index.html" aria-label="Jump directly to our homepage" class="current-page"><h3>home</h3></a>
                 </li>
             </ul>
+            <!-- dropdown menu for site navigation at low resolutions -->
             <select onchange="window.open(this.value,'_self');" id="nav-dropdown" aria-label="Dropdown menu for site navigation">
                 <option value="#">Home</option>
                 <option value="about.html">About</option>
@@ -41,9 +43,13 @@
             </select>
         </nav>
     </header>
+    <!-- Background image -->
     <section id="home-bg" aria-label="A picture of a restaurant table with view of a terras."></section>
+    
     <footer>
+        <!-- Direct link to contact page -->
         <a href="contact.html" id="footer-contact-link" aria-label="Jump directly to our contact page"><h1>Reservations</h1></a>
+        <!-- Social media links -->
         <div id="media-links">
             <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
             <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
