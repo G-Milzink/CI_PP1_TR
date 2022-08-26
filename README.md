@@ -91,6 +91,7 @@
 ### Design Choices
 The design of the website is tailored towards giving a sense of the atmosphere in the restaurant, a warm and cozy place but with a touch of class.
 Sharp corners have been avoided to give a welcoming appearance.
+Several Images and interactive elements have rounded corners on the inside and are purposefully cut of by the edge of the screen.
 
 ### Colour
 The colour scheme was chosen to match the colours used in the restaurant.  
@@ -110,11 +111,12 @@ Contrast has been tested on WebAIM and colours have been adapted where necessary
 <br>
 
 ### Fonts
-Playfair-Display  with cursive as fallback was used for all tekst as to match the font used on thee physical menu.
+Playfair-Display  with cursive as fallback was used for all text as to match the font used on the physical menu.
 
 ### Structure
 The page uses a often used and easily recognized layout. 
-A navigation bar is pinned to the top of every page providing easy navigation 
+A navigation bar is pinned to the top of every page providing easy navigation. At the bottom of the screen users wil find the footer providing a clear secondary link to the contact section and links to the restaurants social media acounts.
+
 The website consists of five separate pages: 
 - A homepage wich offers a view of the terras from one of the tables.
 - An about page with the "About Us" tekst and an indoor shot of the restaurant.
@@ -157,7 +159,7 @@ The website consists of five separate pages:
 - Google Fonts
 
 ## Features
-The page consists of five pages and ?? features
+The page consists of five pages and 9 features
 
 ### Logo and Navigation Bar
 - Featured on all five pages
@@ -174,5 +176,12 @@ links to the Homepage, About page, Menu page, Gallery and Contact  page
 
 ![Footer](docs/features/footer.png) 
 
-### About Us
-- Gives a description of the restaurant and its history with a image of the interior of the building on the left side
+### Homepage
+- Main page with a picture of one og the restaurants tables with view of the terras. Giving a sense of the atmosphere providing welcoming first sight for new customers.
+
+![Homepage](docs/features/homepage.webp)
+
+### About us
+- Page with a short description of the restaurant and is't origin/inspiration. Picture of restaurant interior on the side.
+
+![About](docs/features/homepage.webp)
