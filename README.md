@@ -78,15 +78,16 @@
 6. As a returning user, I want to see the curent menu.
 7. As a returnign user, I want to know the opening times.
 8. As a returning user, I want to be able to quickly make reservations
-10. As a returning user, I want to find the restaurant on social media
-11. As a returning user, I want to get directions to the restaurant
+9. As a returning user, I want to find the restaurant on social media
+10. As a returning user, I want to get directions to the restaurant
 
 #### Site Owner 
-12. As the site owner, I want users to see our menu.
-13. As the site owner, I want users to get to know the restaurant. 
-14. As the site owner, I want the users to be able to contact us.
-15. As the site owner, I want the users to find our social-media acounts.
+11. As the site owner, I want users to see our menu.
+12. As the site owner, I want users to get to know the restaurant. 
+13. As the site owner, I want the users to be able to contact us.
+14. As the site owner, I want the users to find our social-media acounts.
 15. As the site owner, I want to provide returning customers with an easy way to make a reservation.
+16. As site owner I do not want customers to have to use the back button to return to the site after an error.
 
 ## Design
 
@@ -382,4 +383,5 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|map|navigate to contact page|Find map with location of restaurant|Worsk as expected|
+|map|navigate to contact page|Find map with location of restaurant|Works as expected|
+|Adress section|Navigate to contact page|Find restaurant adress|Works as expected|
