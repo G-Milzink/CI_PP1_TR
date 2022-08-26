@@ -356,6 +356,7 @@ The website was tested on the following browsers:
 7. 
 
 8. As a returning user, I want to be able to quickly make reservations
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |Reservations form|Look for way to book a table|find reservation form and contact info|Works as expected|
