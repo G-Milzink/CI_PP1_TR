@@ -248,7 +248,7 @@ WAVE accessibility evaluation tool was used to ensure the website met high acces
 <details><summary>Menu</summary>
 <img src="docs/validation/validation-accessibility-menu.jpg">
 </details>
-<details><summary>Gallery</summary>
+<details><summary>Gallery</summary>git status
 <img src="docs/validation/validation-accessibility-gallery.jpg">
 </details>
 <details><summary>Contact</summary>

@@ -310,11 +310,11 @@ footer {
     overflow-x: hidden;
 }
 
-#contact h4 {
+#contact h3 {
     font-size: 150%;
 }
 
-#contact h5 {
+#contact h4 {
     font-size: 100%;
 }
 
@@ -347,14 +347,14 @@ footer {
 #adress {
     position: relative;
     float: left;
-    left: 7.5vw;
+    left: 50px;
     top: 15px;
 }
 
 #contact-info {
     position: relative;
     float: left;
-    left: 10vw;
+    left: 75px;
     top: 15px;
 }
 
