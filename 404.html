@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        <!-- navigation bar and logo - main site navigation -->
         <a href="index.html" id="logo" aria-label="Jump directly to our homepage"><h1>Hole in the Wall</h1></a>
         <nav id="nav-bar">
             <ul id="nav-menu">
@@ -32,6 +33,7 @@
                     <a href="index.html" aria-label="Jump directly to our homepage"><h3>home</h3></a>
                 </li>
             </ul>
+            <!-- dropdown menu for site navigation at low resolutions -->
             <select onchange="window.open(this.value,'_self');" id="nav-dropdown" aria-label="Dropdown menu for site navigation">
                 <option value="#">Contact</option>
                 <option value="index.html">Home</option>
@@ -41,12 +43,16 @@
             </select>
         </nav>
     </header>
+    <!-- custom 404 image -->
     <section id="oops-bg" aria-label="Oops. 404 page not found">
+        <!-- quick-link back to homepage -->
         <a href="index.html" aria-label="Go back to our homepage">Take me back</a>
     </section>
     <footer>
+        <!-- Direct link to contact page -->
         <a href="contact.html" id="footer-contact-link" aria-label="Jump directly to our contact page"><h1>Reservations</h1></a>
         <div id="media-links">
+            <!-- Social media links -->
             <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
             <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
             <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
