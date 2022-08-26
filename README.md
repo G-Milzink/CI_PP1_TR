@@ -201,4 +201,28 @@ Includes a side bar for easy navigation between menu sections
 ### Contact
 - Page displaying an embedded google maps link pointing ot the restaurant location. A section containing adress and contact-info and a reservations-form allowing customers to reserve a table online.
 
-![Gallery](docs/features/contact.webp)
+![Gallery](docs/features/map.webp)
+
+![Gallery](docs/features/adress.webp)
+
+![Gallery](docs/features/form.webp)
+
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+<details><summary>Home</summary>
+<img src="">
+</details>
+<details><summary>About</summary>
+<img src="">
+</details>
+<details><summary>Menu</summary>
+<img src="">
+</details>
+<details><summary>Gallery</summary>
+<img src="">
+</details>
+<details><summary>Home</summary>
+<img src="">
+</details>
