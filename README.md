@@ -197,3 +197,8 @@ Includes a side bar for easy navigation between menu sections
 - Page displaying a selection of images of food and food preparation both from the restaurant and the owners private collection.
 
 ![Gallery](docs/features/gallery.png)
+
+### Contact
+- Page displaying an embedded google maps link pointing ot the restaurant location. A section containing adress and contact-info and a reservations-form allowing customers to reserve a table online.
+
+![Gallery](docs/features/contact.webp)
