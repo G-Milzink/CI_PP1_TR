@@ -343,3 +343,29 @@ The website was tested on the following browsers:
 <img src="docs/user-stories/user-story-5b.webp">
 <img src="docs/user-stories/user-story-5c.webp">
 </details>
+
+6. As a returning user, I want to see the curent menu.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Menu page|Navigate to the menu|Find the menu|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-6a.webp">
+</details>
+
+7. 
+
+8. As a returning user, I want to be able to quickly make reservations
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Reservations form|Look for way to book a table|find reservation form and contact info|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-8a.webp">
+</details>
+
+9. As a returning user, I want to find the restaurant on social media
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|footer|Go to website|Find social media links|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-9a.webp">
+</details>
