@@ -365,6 +365,7 @@ The website was tested on the following browsers:
 </details>
 
 9. As a returning user, I want to find the restaurant on social media
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |footer|Go to website|Find social media links|Works as expected|
 <details><summary>Screenshot</summary>
