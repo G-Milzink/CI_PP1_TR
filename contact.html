@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        <!-- navigation bar and logo - main site navigation -->
         <a href="index.html" id="logo" aria-label="Jump directly to our homepage"><h1>Hole in the Wall</h1></a>
         <nav id="nav-bar">
             <ul id="nav-menu">
@@ -32,6 +33,7 @@
                     <a href="index.html" aria-label="Jump directly to our homepage"><h3>home</h3></a>
                 </li>
             </ul>
+            <!-- dropdown menu for site navigation at low resolutions -->
             <select onchange="window.open(this.value,'_self');" id="nav-dropdown" aria-label="Dropdown menu for site navigation">
                 <option value="#">Contact</option>
                 <option value="index.html">Home</option>
@@ -41,11 +43,14 @@
             </select>
         </nav>
     </header>
+    <!-- Contact section -->
     <section>
         <div id="contact-wrapper">
+            <!-- google maps (embedded) -->
             <div id="iframe-wrapper">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.353861692761!2d4.303477599999999!3d52.073287900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b72901e403b5%3A0x113685c65ccecc86!2sPrinsegracht%2080%2C%202512%20GC%20Den%20Haag!5e0!3m2!1snl!2snl!4v1660919987515!5m2!1snl!2snl" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <!-- Restaurant adress/contact info -->
             <div id="adress-wrapper">
                 <div id="adress">
                     <h4>Hole in the Wall</h4>
@@ -58,6 +63,7 @@
                     <h4>070-4084540</h4>
                 </div>
             </div>
+            <!-- Reservations form -->
             <div id="form-wrapper">
                 <div id="form-header">
                     <h3>Let us know you are coming!</h3>
@@ -88,8 +94,10 @@
         </div>
     </section>
     <footer>
+        <!-- Direct link to contact page -->
         <a href="contact.html" id="footer-contact-link" aria-label="Jump directly to our contact page"><h1>Reservations</h1></a>
         <div id="media-links">
+            <!-- Social media links -->
             <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
             <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
             <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
