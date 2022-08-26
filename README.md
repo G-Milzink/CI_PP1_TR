@@ -338,8 +338,8 @@ The website was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |Homepage|Visit Website|See image of restaurant|Works as expected|
-|About page|Visit about page|See restaurant interior|Works as expected|
-|Gallery page|Visit gallery page|Find pictures of the restaurant|Works as expected|
+|About page|Navigate to about page|See restaurant interior|Works as expected|
+|Gallery page|Navigate to gallery gallery page|Find pictures of the restaurant|Works as expected|
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-story-5a.webp">
 <img src="docs/user-stories/user-story-5b.webp">
@@ -385,3 +385,107 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 |map|navigate to contact page|Find map with location of restaurant|Works as expected|
 |Adress section|Navigate to contact page|Find restaurant adress|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-10a.webp">
+</details>
+
+11. As the site owner, I want users to see our menu.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Menu page|Navigate to the menu|Find the menu|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-11a.webp">
+</details>
+
+12. As the site owner, I want users to get to know the restaurant.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Homepage|Visit Website|See image of restaurant|Works as expected|
+|About page|Navigate to about page|See restaurant interior|Works as expected|
+|Gallery page|Navigate to gallery gallery page|Find pictures of the restaurant|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-12a.webp">
+<img src="docs/user-stories/user-story-12b.webp">
+<img src="docs/user-stories/user-story-12c.webp">
+<img src="docs/user-stories/user-story-12d.webp">
+</details>
+
+13. As the site owner, I want the users to be able to contact us.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Contact page|Navigate to contact page|Find contact info and reservations form|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-13a.webp">
+</details>
+
+14. As the site owner, I want the users to find our social-media acounts.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|footer|Go to website|Find social media links|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-14a.webp">
+</details>
+
+15. As the site owner, I want to provide returning customers with an easy way to make a reservation.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Reservation form|Navigate to contact page |Find online reservation form|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-15a.webp">
+<img src="docs/user-stories/user-story-15b.webp">
+</details>
+
+16. As site owner I do not want customers to have to use the back button to return to the site after an error.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Custom 404 page|User tries to naviugate to non existing page|Custom 404-page is shown|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-16a.webp">
+</details>
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. Go to the GitHub repository and navigate to the Settings tab.
+2. Scroll down and select Pages in the menu on the left.
+3. For the source select Branch: main
+4. The page will refresh after some time and a message wil be displayed: "Your site is published at https://g-milzink.github.io/CI_PP1_TR/
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory to be
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
+
+## Credits
+
+### Media
+
+- [Homepage background](assets/images/terras-table_1920-900.webp): Photo by <a href="https://unsplash.com/@ryancp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Plomp</a> on <a href="https://unsplash.com/collections/455476/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- [About page image](assets/images/indoor-shot_1000x1500.webp):Photo by <a href="https://unsplash.com/es/@adrienolichon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrien Olichon</a> on <a href="https://unsplash.com/collections/2443767/featured?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- [Menu - Starters image](assets/images/menu/starters-img.webp): Photo by <a href="https://unsplash.com/es/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melissa Walker Horn</a> on <a href="https://unsplash.com/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- [Menu - Mains image](assets/images/menu/mains-img.webp): Photo by <a href="https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max Griss</a> on <a href="https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- [Menu - Deserts image](assets/images/menu/deserts-img.webp): Photo by <a href="https://unsplash.com/@nasmit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nasia M.</a> on <a href="https://unsplash.com/s/photos/chocolate-desert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- [Menu - Drinks image](assets/images/menu/drinks-img.webp): Photo by <a href="https://unsplash.com/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melissa Walker Horn</a> on <a href="https://unsplash.com/s/photos/drinks-selection?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- [Menu - Drinks image](assets/images/menu/bites-img.webp): Photo by <a href="https://unsplash.com/@jeztimms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jez Timms</a> on <a href="https://unsplash.com/s/photos/cheese?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+## Acknowledgements
+I would like to take the opportunity to thank:
+- My mentor Mo Shami for his feedback, advice, guidance and support.
+- My partner Geertje van der Zalm for her support and patience.
+- My mother Anne Rijsdijk and her husband Mickel Pereira for allowing me to persue this dream.
+- Anyone who spends time on the internet awnsering questions and helping others to learn.
+
+  
