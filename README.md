@@ -299,4 +299,25 @@ The website was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |Map|Locate Google map on contact page| Find map showing location of restaurant|Works As expected|
+|Adres section|Locate adres info|Find restaurant adress|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-1a.webp">
+</details>
+
+2. As a first time user, I want to know more about the restaurant.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|About us page|Look for information on the restaurant|Find information on the restaurant|works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-2a.webp">
+</details>
+
+3. As a first time user, I want to know the resaurants menu.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Menu page|Navigate to the menu|Find the menu|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-3a.webp">
 </details>
