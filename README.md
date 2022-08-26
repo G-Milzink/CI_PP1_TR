@@ -184,7 +184,7 @@ links to the Homepage, About page, Menu page, Gallery and Contact  page
 ### About us
 - Page with a short description of the restaurant and is't origin/inspiration. Picture of restaurant interior on the side.
 
-![About]()
+![About](docs/features/about.webp)
 
 ### Menu
 - Page displaying the restaurants full menu and pricing.
