@@ -321,3 +321,25 @@ The website was tested on the following browsers:
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-story-3a.webp">
 </details>
+
+4. As a first time user, I want to know the restaurant's price range.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Menu page|Navigate to the menu|Find the menu|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-4a.webp">
+</details>
+
+5. As a first time user, I want to get a feel of the general atmosphere.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Homepage|Visit Website|See the restaurant|Works as expected|
+|About page|Visit about page|See restaurant interior|Works as expected|
+|Gallery page|Visit gallery page|Find pictures of the restaurant|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-5a.webp">
+<img src="docs/user-stories/user-story-5b.webp">
+<img src="docs/user-stories/user-story-5c.webp">
+</details>
