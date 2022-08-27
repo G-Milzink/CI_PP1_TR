@@ -230,6 +230,9 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <details><summary>Contact</summary>
 <img src="docs/validation/markup-valid-contact.webp">
 </details>
+<details><summary>404</summary>
+<img src="docs/validation/markup-valid-404.webp">
+</details>
 
 ### CSS Validation
 
@@ -260,6 +263,9 @@ A single alert was flagged.
 <details><summary>Contact</summary>
 <img src="docs/validation/wave-contact.webp">
 </details>
+<details><summary>404</summary>
+<img src="docs/validation/wave-404.webp">
+</details>
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
@@ -278,6 +284,9 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 </details>
 <details><summary>Contact</summary>
 <img src="docs/validation/performance-contact.webp">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/performance-404.webp">
 </details>
 
 ### Performing tests on various devices 
