@@ -506,11 +506,15 @@ You can clone the repository by following these steps:
 [Gallery image](assets/images/gallery/peeling-courgette.webp): Photo by <a href="https://unsplash.com/@ca_creative?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CA Creative</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 [Gallery image](assets/images/gallery/salad-orange-juice.webp): Photo by <a href="https://unsplash.com/@shootdelicious?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 [Gallery image](assets/images/gallery/vegan-meal.webp): Photo by <a href="https://unsplash.com/@brookelark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Lark</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
+### Code
+
+- Code snippet to make dropdown menu change current page taken from: https://stackoverflow.com/questions/24582056/html-select-menu-as-navigation-menu
+
 ## Acknowledgements
 I would like to take the opportunity to thank:
 - My mentor Mo Shami for his feedback, advice, guidance and support.
-- My partner Geertje van der Zalm for her support and patience.
+- My partner Geertje van der Zalm for her support, inspiration and patience.
 - My mother Anne Rijsdijk and her husband Mickel Pereira for allowing me to persue this dream.
 - Anyone who spends time on the internet awnsering questions and helping others to learn.
 
