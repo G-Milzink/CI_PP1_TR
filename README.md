@@ -151,15 +151,18 @@ The website consists of five separate pages:
 ### Languages
 - HTML
 - CSS
+- JS (code snippet in header code to make dropdown menu change current page)
 
 ### Frameworks & Tools
 - GitHub
+- Git Bash
 - Gitpod
 - Gimp 2.10
 - Balsamiq
 - Swatcher
 - Font Awsome
 - Google Fonts
+- Favicon
 
 ## Features
 The page consists of five pages and 9 features
@@ -203,7 +206,7 @@ Includes a side bar for easy navigation between menu sections
 
 ### Contact
 - Page displaying an embedded google maps link pointing ot the restaurant location. A section containing adress and contact-info and a reservations-form allowing customers to reserve a table online.
-- user stories covered:1, 8, 14, 15
+- user stories covered:1, 7, 8, 14, 15
 
 ![Gallery](docs/features/map.webp)
 
