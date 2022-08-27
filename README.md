@@ -364,7 +364,14 @@ The website was tested on the following browsers:
 <img src="docs/user-stories/user-story-6a.webp">
 </details>
 
-7. Missing
+7. As a returnign user, I want to know the opening times.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Contact Page|Navigate to contact page|Find opening times|Works as expected|
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-7a.webp">
+</details>
 
 <details><summary>Screenshot</summary>
 <img src="">
