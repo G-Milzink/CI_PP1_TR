@@ -38,7 +38,7 @@ header {
 
 #nav-bar {
     position: inherit;
-    top: 3.5vh;
+    top: 25px;
     right: 0;
     width: 380px;
     float: right;
@@ -167,8 +167,8 @@ footer {
 
 #about h2 {
     font-size: 250%;
-    margin-top: 75px;
-    padding-bottom: 20px;
+    /* margin-top: 75px; */
+    padding-bottom: 50px;
 }
 
 #about p {
@@ -454,8 +454,8 @@ form p {
 @media screen {
     @media (max-width: 420px) {
         #logo {
-            top: 5px;
-            font-size: 80%;
+            top: 15px;
+            font-size: 70%;
             max-width: 50%;
             text-align: center;
         }
@@ -480,12 +480,20 @@ form p {
 
 /* ABOUT PAGE */
 @media screen {
-    @media (max-width: 1200px) {
+    @media (max-width: 1600px) {
         #about-txt {
             font-size: 80%;
-            right: 10vw;
+            right: 2.5%;
             margin: 10px;
             max-width: 50vw;
+        }
+    }
+}
+
+@media screen {
+    @media (max-height: 1400px) {
+        #about-img {
+            max-width: 45vw;
         }
     }
 }
