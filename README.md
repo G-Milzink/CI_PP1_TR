@@ -486,29 +486,45 @@ You can clone the repository by following these steps:
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory to be
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-7.Press Enter to create your local clone.
+7. Press Enter to create your local clone.
 
 ## Credits
 
 ### Media
 
 - [Homepage background](assets/images/terras-table_1920-900.webp): Photo by <a href="https://unsplash.com/@ryancp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Plomp</a> on <a href="https://unsplash.com/collections/455476/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 - [About page image](assets/images/indoor-shot_1000x1500.webp):Photo by <a href="https://unsplash.com/es/@adrienolichon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrien Olichon</a> on <a href="https://unsplash.com/collections/2443767/featured?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 - [Menu - Starters image](assets/images/menu/starters-img.webp): Photo by <a href="https://unsplash.com/es/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melissa Walker Horn</a> on <a href="https://unsplash.com/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 - [Menu - Mains image](assets/images/menu/mains-img.webp): Photo by <a href="https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max Griss</a> on <a href="https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 - [Menu - Deserts image](assets/images/menu/deserts-img.webp): Photo by <a href="https://unsplash.com/@nasmit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nasia M.</a> on <a href="https://unsplash.com/s/photos/chocolate-desert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 - [Menu - Drinks image](assets/images/menu/drinks-img.webp): Photo by <a href="https://unsplash.com/@sugercoatit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melissa Walker Horn</a> on <a href="https://unsplash.com/s/photos/drinks-selection?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [Menu - Drinks image](assets/images/menu/bites-img.webp): Photo by <a href="https://unsplash.com/@jeztimms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jez Timms</a> on <a href="https://unsplash.com/s/photos/cheese?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/caramel-desert.webp): Photo by <a href="https://unsplash.com/@kobbyfotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kobby Mendez</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/cut-bread.webp): Photo by <a href="https://unsplash.com/es/@bartoshevicz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Bartoszewicz</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/cutting-veg.webp): Photo by <a href="https://unsplash.com/@maxdelsid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max Delsid</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
-[Gallery image](assets/images/gallery/grilled-veg.webp): Photo by <a href="https://unsplash.com/@othentikisra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">israel palacio</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/fresh-bowl.webp): Photo by <a href="https://unsplash.com/@pwign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anh Nguyen</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/eggplant-dish_cuttingboard.webp): Photo by <a href="https://unsplash.com/@nobiteuntilphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mariana Medvedeva</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/kitchen-tools.webp): Photo by <a href="https://unsplash.com/@hjkp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">henry perks</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/peeling-courgette.webp): Photo by <a href="https://unsplash.com/@ca_creative?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CA Creative</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/salad-orange-juice.webp): Photo by <a href="https://unsplash.com/@shootdelicious?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-[Gallery image](assets/images/gallery/vegan-meal.webp): Photo by <a href="https://unsplash.com/@brookelark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Lark</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Menu - Bites image](assets/images/menu/bites-img.webp): Photo by <a href="https://unsplash.com/@jeztimms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jez Timms</a> on <a href="https://unsplash.com/s/photos/cheese?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/caramel-desert.webp): Photo by <a href="https://unsplash.com/@kobbyfotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kobby Mendez</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/cut-bread.webp): Photo by <a href="https://unsplash.com/es/@bartoshevicz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Bartoszewicz</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/cutting-veg.webp): Photo by <a href="https://unsplash.com/@maxdelsid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max Delsid</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+
+- [Gallery image](assets/images/gallery/grilled-veg.webp): Photo by <a href="https://unsplash.com/@othentikisra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">israel palacio</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/fresh-bowl.webp): Photo by <a href="https://unsplash.com/@pwign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anh Nguyen</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/eggplant-dish_cuttingboard.webp): Photo by <a href="https://unsplash.com/@nobiteuntilphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mariana Medvedeva</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/kitchen-tools.webp): Photo by <a href="https://unsplash.com/@hjkp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">henry perks</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/peeling-courgette.webp): Photo by <a href="https://unsplash.com/@ca_creative?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CA Creative</a> on <a href="https://unsplash.com/s/photos/food-preparation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/salad-orange-juice.webp): Photo by <a href="https://unsplash.com/@shootdelicious?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [Gallery image](assets/images/gallery/vegan-meal.webp): Photo by <a href="https://unsplash.com/@brookelark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Lark</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ### Code
 
