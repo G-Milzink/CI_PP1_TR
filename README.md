@@ -124,7 +124,7 @@ The website consists of five separate pages:
 - A homepage wich offers a view of the terras from one of the tables.
 - An about page with the "About Us" tekst and an indoor shot of the restaurant.
 - A menu page with its own side-bar for easy navigation to the different menu sections.
-- A image gallery with images taken at the restaurant aswell as general inspiring pictures of food and food preparation.
+- A image gallery with images taken at the restaurant as well as general inspiring pictures of food and food preparation.
 - A contact page with a contact/reservation form, a map and the resaurant's location and contact information.
 
 ### Wireframes
@@ -186,12 +186,12 @@ links to the Homepage, About page, Menu page, Gallery and Contact  page
 ![Footer](docs/features/footer.png) 
 
 ### Homepage
-- Main page with a picture of one og the restaurants tables with view of the terras. Giving a sense of the atmosphere providing welcoming first sight for new customers.
+- Main page with a picture of one of the restaurants tables with view of the terras. Giving a sense of the atmosphere providing welcoming first sight for new customers.
 - user stories covered: 2, 13
 ![Homepage](docs/features/homepage.webp)
 
 ### About us
-- Page with a short description of the restaurant and is't origin/inspiration. Picture of restaurant interior on the side.
+- Page with a short description of the restaurant and is't origin/inspiration. Picture of restaurant interior on the left side of the screen.
 - user stories covered: 2, 13
 ![About](docs/features/about.webp)
 
