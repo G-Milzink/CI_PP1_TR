@@ -155,7 +155,7 @@ footer {
 
 #about-img {
     position: fixed;
-    top: 12vh;
+    top: 90px;
     float: left;
     left: -4px;
     max-height: 76vh;
@@ -166,7 +166,7 @@ footer {
 
 #about-txt {
     position: relative;
-    top: 75px;
+    top: 0;
     float: right;
     right: 10vw;
     max-width: 65vw;
