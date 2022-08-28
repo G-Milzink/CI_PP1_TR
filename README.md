@@ -70,7 +70,7 @@
 #### First-time User 
 1. As a first time user, I want to know the location of the restaurant.
 2. As a first time user, I want to know more about the restaurant.
-3. AS a first time user, I want to know the resaurants menu.
+3. As a first time user, I want to know the resaurants menu.
 4. As a first time user, I want to know the restaurant's price range.
 5. As a first time user, I want to get a feel of the general atmosphere.
 
@@ -118,7 +118,7 @@ Playfair-Display  with cursive as fallback was used for all text as to match the
 
 ### Structure
 The page uses a often used and easily recognized layout. 
-A navigation bar is pinned to the top of every page providing easy navigation. At the bottom of the screen users wil find the footer providing a clear secondary link to the contact section and links to the restaurants social media acounts.
+A navigation bar is pinned to the top of every page providing easy navigation. At the bottom of the screen users wil find the footer providing a clear secondary link to the contact section (especially at lower resolutions where it removes the need to use the dropdown menu for customers who quickly want to book a table "on the go") and links to the restaurants social media acounts.
 
 The website consists of five separate pages: 
 - A homepage wich offers a view of the terras from one of the tables.
@@ -143,6 +143,9 @@ The website consists of five separate pages:
 </details>
 <details><summary>Contact</summary>
 <img src="docs/wireframes/wireframe-contact.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/wireframes/wireframe-404.png">
 </details>
 <br>
 
