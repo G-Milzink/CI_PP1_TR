@@ -55,7 +55,6 @@
 
 ### Target Audience
 - People looking for a place to dine at
-- Groups of people looking for a place to carter an event.
 
 ### User Requirements and Expectations
 
@@ -396,7 +395,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|footer|Go to website|Find social media links|Works as expected|
+|footer|Visit website|Find social media links|Works as expected|
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-story-9a.webp">
 </details>
@@ -447,7 +446,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|footer|Go to website|Find social media links|Works as expected|
+|footer|Visit|Find social media links|Works as expected|
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-story-14a.webp">
 </details>
@@ -466,7 +465,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Custom 404 page|User tries to naviugate to non existing page|Custom 404-page is shown|Works as expected|
+|Custom 404 page|User attempts to navigate to non existing page|Custom 404-page is shown|Works as expected|
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-story-16a.webp">
 </details>
