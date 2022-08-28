@@ -86,6 +86,13 @@ header a {
     display: none;
 }
 
+.header-spacing {
+    position: relative;
+    clear: both;
+    top: 0;
+    height: 75px;
+}
+
 /* FOOTER STYLING */
 footer {
     position: fixed;
@@ -123,10 +130,10 @@ footer {
 }
 
 .footer-spacing {
-    position: relative;
+    position: initial;
     clear: both;
     bottom: 0;
-    height: 150px;
+    height: 75px;
 }
 
 /* HOMEPAGE STYLING */
