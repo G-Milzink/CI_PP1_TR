@@ -378,10 +378,6 @@ The website was tested on the following browsers:
 <img src="docs/user-stories/user-story-7a.webp">
 </details>
 
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
 8. As a returning user, I want to be able to quickly make reservations
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
