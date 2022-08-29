@@ -186,7 +186,6 @@ footer {
 
 #about h2 {
     font-size: 250%;
-    /* margin-top: 75px; */
     padding-bottom: 50px;
 }
 
@@ -233,6 +232,7 @@ footer {
     border: 4px solid black;
     text-align: center;
     z-index: 10;
+
     /* side bar animates on load to enter screen from the left */
     animation-name: slide-bar;
     animation-duration: 1s;
@@ -249,7 +249,7 @@ footer {
         left: -4px;
     }
 }
-
+    /* side-bar styling */
 #sidebar ul {
     position: relative;
     height: 10%;
@@ -310,7 +310,7 @@ footer {
 }
 
 /* GALLERY STYLING */
-    /* collectionof photographs aranged allong a 'masonry' patern */
+    /* collection of photographs aranged allong a 'masonry' patern */
 #gallery {
     position: absolute;
     top: 10vh;
