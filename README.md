@@ -300,7 +300,7 @@ The website was tested on the following devices:
 - HP 14s-fq0050nd AMD Ryzen 3 3250U 14" laptop
 - Generic Desktop PC
 
-Testing with Google Chrome Develepor Tools Device Toggling reveals issues with the responsive design on several devices. 
+Testing with Google Chrome Develepor Tools Device Toggling reveals that the site remains functional and esthetically consistent across all devices.
 
 ### Browser compatability
 The website was tested on the following browsers:

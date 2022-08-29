@@ -699,6 +699,7 @@ form p {
             overflow-x: hidden;
             margin-top: 65px;
             margin-bottom: 200px;
+            height: fit-content;
         }
     }
 }
