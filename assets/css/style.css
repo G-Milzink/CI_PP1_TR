@@ -137,6 +137,7 @@ footer {
     clear: both;
     bottom: 0;
     height: 75px;
+    margin-top: 15px;
 }
 
 /* HOMEPAGE STYLING */
@@ -279,6 +280,7 @@ footer {
     /* 5 menu sections consisting of an image two headers and and paragraph each */
 .menu-section-wrapper {
     min-height: 100vh;
+    height: fit-content;
     width: 100%;
     clear: both;
     overflow-x: hidden;
@@ -557,20 +559,27 @@ form p {
 @media screen {
     @media (max-width: 650px) {
         #about-img {
-            position: relative;
             max-height: 65vh;
             width: auto;
-            top: 100px;
+            position: relative;
+            top: 15px;
         }
 
         #about-txt {
             float: none;
-            max-width: 40vw;
-            margin-left: 45px;
-            top: 50px;
+            max-width: 60vw;
+            margin-left: 15vw;
+            margin-top: 5px;
             padding-bottom: 5px;
             min-width: 80vw;
-            font-size: 60%;
+            font-size: 57.5%;
+        }
+    }
+    @media screen {
+        @media (max-height: 600px) {
+            #about-img {
+                max-height: 70vh;
+            }
         }
     }
 }
@@ -611,12 +620,12 @@ form p {
         }
 
         #menu h3 {
-            font-size: 190%;
+            font-size: 180%;
             padding-top: 10px;
         }
 
         #menu p {
-            font-size: 90%;
+            font-size: 85%;
         }
     }
 }
@@ -637,7 +646,7 @@ form p {
 
         .menu-section-img {
             top: 100px;
-            margin: 50px 0 50px 0;
+            margin: 40px 0px 100px 0px;
         }
     }
 }
